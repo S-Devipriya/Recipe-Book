@@ -251,7 +251,7 @@ def show_home_window(username):
     btn1= tk.Button(master= fr_btns, text="Search for a recipe",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda:show_search_window(username))
     btn2= tk.Button(master= fr_btns, text="Manage your recipes",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda: show_manage_window(username))
     btn3= tk.Button(master= fr_btns, text="Rate recipes",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda:show_rate_window(username))
-    btn4= tk.Button(master= fr_btns, text="View recipe stats",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda:show_stats_window(username))
+    btn4= tk.Button(master= fr_btns, text="View Recipe Book stats",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda:show_stats_window(username))
     btn5= tk.Button(master= fr_ext, text="Exit",font=("Helvetica", 14), relief= tk.RAISED, borderwidth=5, bg= "#ffb5d1", command= lambda:exit_app(home_window))
     
     lbl_wel.grid(row=0,column=0,padx=10,pady=10)
